@@ -13,7 +13,7 @@ const CardItem = props => {
             <p className="para">{description}</p>
           </div>
           <div className="image">
-            <img src={imgUrl} alt={className} />
+            <img src={imgUrl} alt={title} />
           </div>
         </div>
       </div>
